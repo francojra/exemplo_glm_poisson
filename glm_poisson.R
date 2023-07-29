@@ -67,7 +67,9 @@ testZeroInflation(mod1)
 
 # Calculando o R2 do modelo
 
-
+## Para distribuição de poisson - Pseudo-R²
+library(rsq)
+rsq(mod1)
 
 # Teste formal da ANOVA
 
